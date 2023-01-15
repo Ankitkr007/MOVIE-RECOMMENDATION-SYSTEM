@@ -5,9 +5,9 @@ import pandas as pd
 import numpy as np
 st.title('Movie Recommendation System')
 
-movies_dict = pickle.load(open('C:/Users/hp/Downloads/movies_data.pkl', 'rb'))
+movies_dict = pickle.load(open('movies_data.pkl', 'rb'))
 movies=pd.DataFrame(movies_dict)
-similarity=pickle.load(open('C:/Users/hp/Downloads/similarity.pkl', 'rb'))
+similarity=pickle.load(open('similarity.pkl', 'rb'))
 
 
 
